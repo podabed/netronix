@@ -1,0 +1,49 @@
+.measurements-item {
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 1em;
+}
+
+.measurements {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 1em;
+  font-family: "Omnes", sans-serif;
+  font-size: 0.8em;
+}
+
+.head {
+  display: flex;
+  width: 100%;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 3em;
+  font-family: "Omnes", sans-serif;
+  background: #000;
+  color: #fff;
+}
+
+.href {
+  color: #000;
+  cursor: pointer;
+}
+
+.left {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: left;
+  font-size: 1.2em;
+}
+
+.measurement {
+  line-height: 1.75em;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}

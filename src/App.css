@@ -1,0 +1,31 @@
+html {
+  background: #f0f0f0;
+}
+
+.error {
+  margin-top: 1em;
+}
+
+.header {
+  display: flex;
+  position: sticky;
+  align-items: center;
+  height: 3.625em;
+  background: black;
+  padding: 0 2em;
+}
+
+.logo {
+  width: 9.375em;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: #fff;
+  font-family: "Omnes", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  font-size: 0.875em;
+}
